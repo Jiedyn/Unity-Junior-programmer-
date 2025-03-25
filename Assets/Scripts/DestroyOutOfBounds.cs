@@ -16,6 +16,8 @@ public class DestroyOutOfBouds : MonoBehaviour
             Destroy(gameObject);
         } else if (transform.position.z < -10)
         {
+            Debug.Log("Game Over!");
+            // track your script self note
             Destroy(gameObject);
         }
     }

@@ -270,6 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 330660210197512059}
   - component: {fileID: 4259967779175637331}
+  - component: {fileID: 5192696793196703669}
   m_Layer: 0
   m_Name: SA_Animals_Cow_Brown
   m_TagString: Untagged
@@ -392,6 +393,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!65 &5192696793196703669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447516509425995497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 44.436653, y: 43.178986, z: 48.408817}
+  m_Center: {x: -0.39336416, y: 15.148801, z: 0.2914349}
 --- !u!1 &546515250752629663
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +490,8 @@ GameObject:
   - component: {fileID: 2868433442582377533}
   - component: {fileID: 78858387862978361}
   - component: {fileID: 5200907243399379692}
+  - component: {fileID: 1235658063675897038}
+  - component: {fileID: 6486967036200014023}
   m_Layer: 0
   m_Name: Animal_Cow_Brown
   m_TagString: Untagged
@@ -525,7 +549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f3563eb8e9bed48b7428e75b916624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 10
 --- !u!114 &5200907243399379692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,6 +560,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07b25789dd88fd04a8ad246d19df147d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1235658063675897038
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290541926270457839}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6486967036200014023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290541926270457839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311baa30059a94745aad297c917770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1693820697824627386

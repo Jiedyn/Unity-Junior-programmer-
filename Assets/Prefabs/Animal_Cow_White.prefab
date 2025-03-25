@@ -1407,6 +1407,8 @@ GameObject:
   - component: {fileID: 426618697215830487}
   - component: {fileID: 5173656485697145903}
   - component: {fileID: 8805269094153889020}
+  - component: {fileID: 6059236594870403990}
+  - component: {fileID: -5678582499210253646}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -1464,7 +1466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f3563eb8e9bed48b7428e75b916624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 7
 --- !u!114 &8805269094153889020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1475,6 +1477,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07b25789dd88fd04a8ad246d19df147d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6059236594870403990
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5237176296125362291}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-5678582499210253646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5237176296125362291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311baa30059a94745aad297c917770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5339744091223561065
@@ -1771,6 +1806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8962838718724228520}
   - component: {fileID: 5812899391139978419}
+  - component: {fileID: 3406676192593775454}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -1893,6 +1929,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!65 &3406676192593775454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299693221491964968}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 42.099636, y: 37.604713, z: 48.408817}
+  m_Center: {x: -0.91090065, y: 18.802324, z: 0.2914349}
 --- !u!1 &7423427675092428300
 GameObject:
   m_ObjectHideFlags: 0
