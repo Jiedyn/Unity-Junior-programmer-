@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cube : MonoBehaviour
+ public class Cube : MonoBehaviour
 {
-    public MeshRenderer Renderer;
+     public MeshRenderer Renderer;
 
     void Start()
     {
@@ -23,6 +23,6 @@ public class Cube : MonoBehaviour
         Material material = Renderer.material;
 
         gameObject.GetComponent<MeshRenderer>().material.color = new Color(0.5f, 1.0f, 0.3f, 0.4f);
-        Debug.Log("colour");
+        Debug.Log("colour"); 
     }
 }

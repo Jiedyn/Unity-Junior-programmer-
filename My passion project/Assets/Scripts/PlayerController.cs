@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float horizontalinput;
-    public float Speed = 10f;
+    public float speed = 10f;
     public float yRange = 3f;
 
     void Start()
